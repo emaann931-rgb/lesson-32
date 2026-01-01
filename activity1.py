@@ -6,3 +6,15 @@ while passkey!=password:
     passkey=input("enter password again:")
 print("correct password,continue!")
 
+'''#Write a program that allows the user only 3 login attempts using a while loop.'''
+
+password=input("Enter password:")
+keys="67"
+if password==keys:
+        print("Login succesful")
+elif input("enter password")==keys:
+        print("Login succesful")
+elif input("enter password")==keys:
+        print("Login succesful")
+else:
+        print("account locked")
